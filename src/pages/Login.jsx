@@ -61,10 +61,10 @@ const Login = () => {
           </button>
           {error && <div className="error-message">{error}</div>}
         </form>
-        <p style={{marginTop: '20px', color: '#6c757d'}}>
-          Don't have an account? <Link to="/register" style={{color: '#667eea', textDecoration: 'none'}}>Sign up</Link>
+        <p className="auth-link">
+          Don't have an account? <Link to="/register" className="auth-link-highlight">Sign up</Link>
         </p>
-        <div style={{marginTop: '20px', padding: '15px', background: '#f8f9fa', borderRadius: '8px', fontSize: '14px', color: '#6c757d'}}>
+        <div className="test-credentials">
           <strong>Test Credentials:</strong><br/>
           Email: testuser@example.com<br/>
           Password: testpassword

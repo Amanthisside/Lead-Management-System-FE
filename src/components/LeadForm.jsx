@@ -30,8 +30,8 @@ const LeadForm = ({ onSubmit, initialData = {}, submitLabel = 'Save' }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="form-container">
-      <div className="form-group">
+    <form onSubmit={handleSubmit} className="lead-form">
+      <div className="form-grid">
         <label className="form-label">First Name *</label>
         <input 
           name="first_name" 

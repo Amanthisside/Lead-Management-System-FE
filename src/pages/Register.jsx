@@ -61,8 +61,8 @@ const Register = () => {
           </button>
           {error && <div className="error-message">{error}</div>}
         </form>
-        <p style={{marginTop: '20px', color: '#6c757d'}}>
-          Already have an account? <Link to="/login" style={{color: '#667eea', textDecoration: 'none'}}>Sign in</Link>
+        <p className="auth-link">
+          Already have an account? <Link to="/login" className="auth-link-highlight">Sign in</Link>
         </p>
       </div>
     </div>
